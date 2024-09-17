@@ -55,11 +55,11 @@ console.log("5) Num array in descending form is:", descending);
 
 //lowercaseFirstLetter
 function lowercaseFirstLetter(str = "lowercaseFirstLetter") {
-  let strArray = str.toUpperCase().split("");
+  let strArray = str.split("");
   let firstLower = strArray.fill(strArray[0].toLowerCase(), 0, 1).join("");
   return firstLower;
 }
-let firstLower = lowercaseFirstLetter("Hello everybody");
+let firstLower = lowercaseFirstLetter("Hello Everybody");
 console.log("6) First letter lowercased:", firstLower);
 
 //countVowels
